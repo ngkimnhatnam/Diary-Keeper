@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:minWidth="300dp"
+         android:minHeight="200dp"
+         android:orientation="vertical" >
+
+         <EditText
+         android:id="@+id/tittle"
+         android:layout_width="fill_parent"
+         android:layout_height="50dp"
+         android:layout_margin="3dp"
+         />
+         <EditText
+         android:id="@+id/type"
+         android:layout_width="fill_parent"
+         android:layout_height="50dp"
+         android:layout_margin="3dp"
+         />
+
+        <EditText
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        />
+
+         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal" >
+       <Button
+         android:id="@+id/btnUpdate"
+         android:text="Update"
+         android:layout_width="0dp"
+         android:layout_weight="1"
+         android:layout_height="80dp"
+          />
+       <Button
+         android:id="@+id/btnCancel"
+         android:text="Cancel"
+         android:layout_width="0dp"
+         android:layout_weight="1"
+         android:layout_height="80dp"
+          />
+       </LinearLayout>
+     </LinearLayout>
